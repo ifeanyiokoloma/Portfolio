@@ -78,7 +78,8 @@ input {
   height: 30px;
 }
 
-input, textarea {
+input,
+textarea {
   font-family: inherit;
 }
 
@@ -128,13 +129,22 @@ footer {
   color: rgb(0, 0, 0);
 }
 
+
+/* Style Contact */
+
+#contact {
+  background: rgb(243, 220, 220);
+}
+
 #contact h3 {
   color: rgba(0, 0, 0, var(--reduce-color));
 }
 
 .icons > * {
   font-size: 1.5rem;
-  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .social a.bi-linkedin {
@@ -184,6 +194,14 @@ hr {
 
 /* Utility */
 
+.space-balance {
+  margin: auto;
+}
+
+.white-text {
+  color: white;
+}
+
 .justify {
   text-align: justify;
 }
@@ -211,6 +229,10 @@ hr {
 }
 
 .vertical {
+  display: grid;
+}
+
+.vertical-flex {
   display: flex;
   flex-direction: column;
 }
@@ -277,8 +299,37 @@ hr {
 }
 
 .card {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   border-radius: 10px;
   background: white;
 }
 
+@media (min-width: 768px) {
+  .appear-grid-tab {
+    display: flex;
+  }
+
+  .appear-block-tab {
+    display: block;
+  }
+
+  .space-side-tab-small {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+
+  .max-width-768 {
+    max-width: 768px;
+    margin: auto;
+  }
+
+  .width-tab-600 {
+    width: 600px;
+  }
+
+  .column-md-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+}

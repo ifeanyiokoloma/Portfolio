@@ -18,17 +18,21 @@
   </head>
   <body>
     <nav
-      class="glass horizontal space-between space-all-small steady width-100"
+      class="glass horizontal space-between space-all-medium steady width-100 space-side-tab-small"
     >
       <a id="logo" class="bold caveat white" href="/">Ifeanyi Okoloma</a>
 
-      <ul class="links horizontal disappear">
+      <ul
+        class="links disappear appear-grid-tab white-text horizontal gap-small"
+      >
         <li><a href="#">About Me</a></li>
         <li><a href="#">Contact Me</a></li>
         <li><a href="#">My Projects</a></li>
       </ul>
 
-      <ul class="links horizontal disappear">
+      <ul
+        class="links horizontal disappear appear-grid-tab white-text horizontal gap-small"
+      >
         <li><a href="">Blog</a></li>
         <li><a href="">Extra</a></li>
       </ul>
@@ -46,15 +50,16 @@
       ></video>
       <!-- <video width="300" src="/videos/hero-v.mp4"></video> -->
 
-      <div class="overlay center white vertical gap-medium space-side-small">
+      <div
+        class="overlay center white vertical-flex gap-medium space-side-small space-side-tab-small"
+      >
         <header class="vertical gap-small">
           <h1>Hire A <br />Web&nbsp;Developer</h1>
 
-          <p class="subtitle">
-            My name is Ifeanyi Okoloma, I am Fullstack Developer (<a href="#"
-              ><abbr title="MongoDB Express React and Node">MERN</abbr></a
-            >
-            and <a href="#">NextJs</a>)
+          <p class="subtitle max-width-768">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            voluptatem impedit suscipit deserunt distinctio earum exercitationem
+            dolores officia voluptates?
           </p>
         </header>
 
@@ -68,7 +73,10 @@
     <hr />
 
     <main class="vertical gap-medium space-top-large space-bottom-large">
-      <article id="about" class="vertical gap-small justify space-side-medium">
+      <article
+        id="about"
+        class="vertical gap-small justify space-side-medium max-width-768 space-side-tab-small"
+      >
         <h2>About Me</h2>
 
         <p>
@@ -102,219 +110,231 @@
 
       <hr />
 
-      <section id="contact" class="vertical gap-medium space-side-medium">
+      <section
+        id="contact"
+        class="vertical gap-medium space-side-medium space-top-large space-bottom-large"
+      >
         <h2>Contact Me</h2>
 
-        <section
-          class="social vertical gap-small card space-side-medium space-bottom-large space-top-medium"
-        >
-          <h3>Social</h3>
+        <div class="space-side-tab-small space-balance vertical gap-medium">
+          <section
+            class="social vertical gap-small card space-side-medium space-bottom-large space-top-medium width-tab-600"
+          >
+            <h3>Social</h3>
 
-          <ul class="horizontal space-between icons">
-            <li>
-              <a href="#" class="bi bi-linkedin"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-whatsapp"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-twitter"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-youtube"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-facebook"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-instagram"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-telegram"></a>
-            </li>
-          </ul>
-        </section>
+            <ul class="horizontal space-between icons">
+              <li>
+                <a href="#" class="bi bi-linkedin"></a>
+              </li>
+              <li>
+                <a href="#" class="bi bi-whatsapp"></a>
+              </li>
+              <li>
+                <a href="#" class="bi bi-twitter"></a>
+              </li>
+              <li>
+                <a href="#" class="bi bi-youtube"></a>
+              </li>
+              <li>
+                <a href="#" class="bi bi-facebook"></a>
+              </li>
+              <li>
+                <a href="#" class="bi bi-instagram"></a>
+              </li>
+              <li>
+                <a href="#" class="bi bi-telegram"></a>
+              </li>
+            </ul>
+          </section>
 
-        <hr />
+          <hr />
 
-        <form
-          class="contact-form vertical gap-small card space-side-medium space-bottom-large space-top-large"
-        >
-          <h3>Contact Form</h3>
-          <div class="vertical">
-            <label for="name">Full Name:</label>
-            <input
-              class="space-side-small"
-              required
-              id="name"
-              name="name"
-              type="text"
-            />
-          </div>
+          <form
+            class="contact-form vertical gap-small card space-side-medium space-bottom-large space-top-large width-tab-600"
+          >
+            <h3>Contact Form</h3>
+            <div class="vertical">
+              <label for="name">Full Name:</label>
+              <input
+                class="space-side-small"
+                required
+                id="name"
+                name="name"
+                type="text"
+              />
+            </div>
 
-          <br />
+            <br />
 
-          <div class="vertical">
-            <label for="email">Email:</label>
-            <input
-              class="space-side-small"
-              required
-              id="email"
-              name="email"
-              type="email"
-            />
-          </div>
+            <div class="vertical">
+              <label for="email">Email:</label>
+              <input
+                class="space-side-small"
+                required
+                id="email"
+                name="email"
+                type="email"
+              />
+            </div>
 
-          <br />
+            <br />
 
-          <div class="vertical">
-            <label for="tel">Telephone:</label>
-            <input
-              class="space-side-small"
-              required
-              id="tel"
-              name="tel"
-              type="tel"
-            />
-          </div>
+            <div class="vertical">
+              <label for="tel">Telephone:</label>
+              <input
+                class="space-side-small"
+                required
+                id="tel"
+                name="tel"
+                type="tel"
+              />
+            </div>
 
-          <br />
+            <br />
 
-          <div class="vertical">
-            <label for="message">Message:</label>
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              required
-              class="space-all-small"
-            ></textarea>
-          </div>
-        </form>
+            <div class="vertical">
+              <label for="message">Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+                class="space-all-small"
+              ></textarea>
+            </div>
+          </form>
+        </div>
       </section>
 
       <hr />
 
-      <section class="space-side-medium vertical gap-medium">
+      <section
+        id="project"
+        class="space-side-medium vertical gap-medium space-side-tab-small"
+      >
         <h2>Projects</h2>
 
-        <section class="card vertical gap-small space-top-medium justify">
-          <h3>
-            <abbr title="HyperText Markup Language">HTML</abbr> and
-            <abbr title="Cascading Style Sheets">CSS</abbr> Project
-          </h3>
+        <div class="column-md-2 gap-small">
+          <section class="card vertical gap-small space-top-medium justify">
+            <h3>
+              <abbr title="HyperText Markup Language">HTML</abbr> and
+              <abbr title="Cascading Style Sheets">CSS</abbr> Project
+            </h3>
 
-          <figure>
-            <img src="/images/project.jpg" alt="" width="300" />
-          </figure>
+            <figure>
+              <img src="/images/project.jpg" alt="" width="300" />
+            </figure>
 
-          <p class="description space-bottom-large space-side-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
-            iste! Voluptates nulla ab iste corporis at ratione voluptatibus
-            libero laudantium aperiam facilis, animi impedit. Pariatur fugit
-            commodi perspiciatis.
-          </p>
-        </section>
+            <p class="description space-bottom-large space-side-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
+              iste! Voluptates nulla ab iste corporis at ratione voluptatibus
+              libero laudantium aperiam facilis, animi impedit. Pariatur fugit
+              commodi perspiciatis.
+            </p>
+          </section>
 
-        <hr />
+          <hr />
 
-        <section class="card vertical gap-small space-top-medium justify">
-          <h3>
-            <abbr title="HyperText Markup Language">HTML</abbr>,
-            <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript
-            Project
-          </h3>
-          <figure>
-            <img src="/images/project.jpg" alt="" width="300" />
-          </figure>
-          <p class="description space-bottom-large space-side-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
-            iste! Voluptates nulla ab iste corporis at ratione voluptatibus
-            libero laudantium aperiam facilis, animi impedit. Pariatur fugit
-            commodi perspiciatis.
-          </p>
-        </section>
+          <section class="card vertical gap-small space-top-medium justify">
+            <h3>
+              <abbr title="HyperText Markup Language">HTML</abbr>,
+              <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript
+              Project
+            </h3>
+            <figure>
+              <img src="/images/project.jpg" alt="" width="300" />
+            </figure>
+            <p class="description space-bottom-large space-side-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
+              iste! Voluptates nulla ab iste corporis at ratione voluptatibus
+              libero laudantium aperiam facilis, animi impedit. Pariatur fugit
+              commodi perspiciatis.
+            </p>
+          </section>
 
-        <hr />
+          <hr />
 
-        <section class="card vertical gap-small space-top-medium justify">
-          <h3>React Project</h3>
-          <figure>
-            <img src="/images/project.jpg" alt="" width="300" />
-          </figure>
-          <p class="description space-bottom-large space-side-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
-            iste! Voluptates nulla ab iste corporis at ratione voluptatibus
-            libero laudantium aperiam facilis, animi impedit. Pariatur fugit
-            commodi perspiciatis.
-          </p>
-        </section>
+          <section class="card vertical gap-small space-top-medium justify">
+            <h3>React Project</h3>
+            <figure>
+              <img src="/images/project.jpg" alt="" width="300" />
+            </figure>
+            <p class="description space-bottom-large space-side-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
+              iste! Voluptates nulla ab iste corporis at ratione voluptatibus
+              libero laudantium aperiam facilis, animi impedit. Pariatur fugit
+              commodi perspiciatis.
+            </p>
+          </section>
 
-        <hr />
+          <hr />
 
-        <section class="card vertical gap-small space-top-medium justify">
-          <h3>React and Node Project</h3>
-          <figure>
-            <img src="/images/project.jpg" alt="" width="300" />
-          </figure>
-          <p class="description space-bottom-large space-side-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
-            iste! Voluptates nulla ab iste corporis at ratione voluptatibus
-            libero laudantium aperiam facilis, animi impedit. Pariatur fugit
-            commodi perspiciatis.
-          </p>
-        </section>
+          <section class="card vertical gap-small space-top-medium justify">
+            <h3>React and Node Project</h3>
+            <figure>
+              <img src="/images/project.jpg" alt="" width="300" />
+            </figure>
+            <p class="description space-bottom-large space-side-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
+              iste! Voluptates nulla ab iste corporis at ratione voluptatibus
+              libero laudantium aperiam facilis, animi impedit. Pariatur fugit
+              commodi perspiciatis.
+            </p>
+          </section>
 
-        <hr />
+          <hr />
 
-        <section class="card vertical gap-small space-top-medium justify">
-          <h3>Next JS Project</h3>
-          <figure>
-            <img src="/images/project.jpg" alt="" width="300" />
-          </figure>
-          <p class="description space-bottom-large space-side-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
-            iste! Voluptates nulla ab iste corporis at ratione voluptatibus
-            libero laudantium aperiam facilis, animi impedit. Pariatur fugit
-            commodi perspiciatis.
-          </p>
-        </section>
+          <section class="card vertical gap-small space-top-medium justify">
+            <h3>Next JS Project</h3>
+            <figure>
+              <img src="/images/project.jpg" alt="" width="300" />
+            </figure>
+            <p class="description space-bottom-large space-side-medium">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit
+              iste! Voluptates nulla ab iste corporis at ratione voluptatibus
+              libero laudantium aperiam facilis, animi impedit. Pariatur fugit
+              commodi perspiciatis.
+            </p>
+          </section>
+        </div>
       </section>
     </main>
 
     <footer>
       <section
-          class="vertical gap-small space-side-medium space-bottom-large space-top-medium"
-        >
-          <h3>Social</h3>
+        class="vertical gap-small space-side-medium space-bottom-large space-top-medium"
+      >
+        <h3>Social</h3>
 
-          <ul class="horizontal space-between icons">
-            <li>
-              <a href="#" class="bi bi-linkedin"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-whatsapp"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-twitter"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-youtube"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-facebook"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-instagram"></a>
-            </li>
-            <li>
-              <a href="#" class="bi bi-telegram"></a>
-            </li>
-          </ul>
-        </section>
+        <ul class="horizontal space-between icons">
+          <li>
+            <a href="#" class="bi bi-linkedin"></a>
+          </li>
+          <li>
+            <a href="#" class="bi bi-whatsapp"></a>
+          </li>
+          <li>
+            <a href="#" class="bi bi-twitter"></a>
+          </li>
+          <li>
+            <a href="#" class="bi bi-youtube"></a>
+          </li>
+          <li>
+            <a href="#" class="bi bi-facebook"></a>
+          </li>
+          <li>
+            <a href="#" class="bi bi-instagram"></a>
+          </li>
+          <li>
+            <a href="#" class="bi bi-telegram"></a>
+          </li>
+        </ul>
+      </section>
 
-      <small class='space-all-small'> &COPY; Ifeanyi Okoloma's Portfolio 2023 </small>
+      <small class="space-all-small">
+        &COPY; Ifeanyi Okoloma's Portfolio 2023
+      </small>
     </footer>
   </body>
 </html>
